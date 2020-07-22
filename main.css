@@ -10,7 +10,7 @@
   float: left;
 }
 
-.fontsize-0.8 {
+.fontsize-8 {
   font-size: 0.8rem;
 }
 
@@ -44,6 +44,10 @@
 .width {
   width: auto;
   height: auto;
+}
+
+.width2 {
+  width: 18%;
 }
 
 .width1 {
