@@ -1,0 +1,110 @@
+:root {
+  font-size: 1rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.fontsize-0.8 {
+  font-size: 0.8rem;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.clear-left {
+  clear: both;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.text1 {
+  vertical-align: middle;
+}
+
+/* .flex-basis {
+  flex-basis: 25%;
+} */
+.text-color {
+  color: black;
+}
+
+.width {
+  width: auto;
+  height: auto;
+}
+
+.width1 {
+  width: 75%;
+}
+
+.background {
+  background: #f72210;
+}
+
+.inline {
+  display: inline;
+  position: absolute;
+}
+
+.block {
+  display: block;
+}
+
+.america {
+  position: relative;
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 0.6rem;
+  }
+
+  .svg-width {
+    width: 50%;
+  }
+
+  .cloud,
+  .cloud + span,
+  .right1 {
+    display: none;
+  }
+
+  .debate {
+    border-bottom: 2px ridge #d9d9d9;
+  }
+}
+
+@media (min-width: 767px) {
+  .x {
+    order: 2;
+  }
+
+  .y {
+    order: 1;
+  }
+}
+
+/* .fa-user {
+  margin-left: auto;
+} */
+/* .cloud {
+  width: 7%;
+}
+
+.cloud + span {
+  color: #fff;
+} */
