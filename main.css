@@ -46,7 +46,9 @@
 }
 
 .background {
-  background: #f72210;
+  background-color: #f72210;
+  /* background: black; */
+  /* color: #f72210; */
 }
 
 .inline {
