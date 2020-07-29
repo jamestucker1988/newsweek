@@ -41,11 +41,6 @@
   color: black;
 }
 
-.width {
-  width: auto;
-  height: auto;
-}
-
 .width1 {
   width: 75%;
 }
@@ -89,6 +84,12 @@
   border-bottom: 2px ridge #d9d9d9;
 }
 
+@media (max-width: 768px) {
+  .width3 {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   /* .x {
     order: 2;
@@ -96,6 +97,9 @@
 
   .y {
     order: 1;
+  } */
+  /* .width3 {
+    width: 95%;
   } */
 
   .svg-width {
