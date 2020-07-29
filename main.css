@@ -74,6 +74,10 @@
   display: none;
 }
 
+.width3 {
+  width: auto;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 0.6rem;
@@ -85,9 +89,6 @@
 }
 
 @media (max-width: 768px) {
-  .width3 {
-    width: 100%;
-  }
 }
 
 @media (min-width: 768px) {
