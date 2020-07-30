@@ -45,10 +45,12 @@
   width: 75%;
 }
 
-.background {
+.bottom {
+  bottom: 0;
+}
+
+.background1 {
   background-color: #f72210;
-  /* background: black; */
-  /* color: #f72210; */
 }
 
 .inline {
@@ -78,6 +80,11 @@
 
 .width3 {
   width: auto;
+}
+
+.width4 {
+  width: 30px;
+  height: 30px;
 }
 
 @media (min-width: 576px) {
