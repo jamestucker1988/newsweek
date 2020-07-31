@@ -30,13 +30,14 @@
   position: absolute;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .text1 {
   vertical-align: middle;
 }
 
-/* .flex-basis {
-  flex-basis: 25%;
-} */
 .text-color {
   color: black;
 }
@@ -46,7 +47,11 @@
 }
 
 .bottom {
-  bottom: 48px;
+  bottom: 27px;
+}
+
+.left {
+  left: 0;
 }
 
 .background1 {
@@ -119,6 +124,9 @@
   /* .width3 {
     width: 95%;
   } */
+  .margin-top {
+    margin-top: 14rem;
+  }
 
   .svg-width {
     width: 20%;
