@@ -46,11 +46,19 @@
 }
 
 .bottom {
-  bottom: 0;
+  bottom: 48px;
 }
 
 .background1 {
   background-color: #f72210;
+}
+
+.color {
+  color: #f72210;
+}
+
+.background2 {
+  background: #f4f5f6;
 }
 
 .inline {
