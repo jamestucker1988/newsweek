@@ -109,6 +109,10 @@
   left: -20px;
 }
 
+.margin {
+  margin: 0;
+}
+
 .height {
   height: 88.5%;
 }
@@ -130,9 +134,19 @@
   width: 15%;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  .display1 {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
   body {
     font-size: 0.6rem;
+  }
+
+  .display1 {
+    display: none;
   }
 }
 
@@ -140,7 +154,7 @@
   border-bottom: 2px ridge #d9d9d9;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .margin-top {
     margin-top: 14rem;
   }
@@ -157,5 +171,16 @@
   .cloud + span,
   .right1 {
     display: inline;
+  }
+
+  .display1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .margin {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
