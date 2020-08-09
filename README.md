@@ -4,7 +4,7 @@
 This is an assigned project where we were supposed to replicate/clone theNextweb page as seen in the link:
 <a href="https://www.newsweek.com/">click here</a>
 ​
-![screenshot 1](./images/Screenshot at 2020-08-08 13-13-30.png)
+![screenshot 1](./images/Screenshot.png)
 ​
 
 ## Built With
