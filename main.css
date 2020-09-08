@@ -2,6 +2,38 @@
   font-size: 1rem;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+.c-vs {
+  content: "";
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #212529;
+  color: #fff;
+  position: relative;
+  left: 50%;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.inherit {
+  width: inherit;
+}
+
 .float-right {
   float: right;
 }
@@ -60,7 +92,7 @@
 }
 
 .background1 {
-  background-color: #f72210;
+  background-color: #f72210 !important;
 }
 
 .color {
@@ -88,6 +120,16 @@
 .svg-width {
   width: 30%;
   height: auto;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.card-horizon {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
 }
 
 .width3 {
@@ -128,6 +170,14 @@
   width: 16%;
 }
 
+.card-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.card-body a:hover {
+  text-decoration: underline #f72210;
+}
+
 @media (max-width: 575.98px) {
   .display4 {
     display: none;
@@ -154,7 +204,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .margin-top {
-    margin-top: 14rem;
+    margin-top: ;
   }
 
   .display1 {
