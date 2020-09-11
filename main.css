@@ -13,6 +13,10 @@ body {
   padding-left: 0.2rem;
 }
 
+.vertical-align {
+  vertical-align: bottom;
+}
+
 .theline {
   border-bottom: 4px solid #d9d9d9;
 }
@@ -199,7 +203,8 @@ nav {
 }
 
 @media (max-width: 575.98px) {
-  .display4 {
+  .display4,
+  .display5 {
     display: none;
   }
 }
@@ -214,6 +219,10 @@ nav {
   }
 
   .display3 {
+    display: none;
+  }
+
+  .display5 {
     display: none;
   }
 }
