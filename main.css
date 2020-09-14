@@ -14,7 +14,7 @@ body {
 }
 
 .vertical-align {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .theline {
@@ -62,6 +62,10 @@ body {
 
 .fontsize-8 {
   font-size: 0.8rem;
+}
+
+.fontsize-6 {
+  font-size: 0.6rem;
 }
 
 .visibility {
@@ -130,10 +134,10 @@ body {
   display: block;
 }
 
-.america {
+/* .america {
   position: relative;
-  font-size: 1rem;
-}
+  
+} */
 
 .svg-width {
   width: 30%;
@@ -141,7 +145,7 @@ body {
 }
 
 .cover {
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .card-horizon {
@@ -185,7 +189,7 @@ body {
 }
 
 .width2 {
-  width: 16%;
+  width: 6%;
 }
 
 .card-title a:hover {
@@ -203,22 +207,7 @@ nav {
 }
 
 @media (max-width: 575.98px) {
-  .display4,
-  .display5 {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .display1 {
-    display: none;
-  }
-
-  .display2 {
-    display: none;
-  }
-
-  .display3 {
+  .display4 {
     display: none;
   }
 
@@ -231,11 +220,20 @@ nav {
   border-bottom: 2px ridge #d9d9d9;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .display1 {
     display: none;
   }
 
+  .display2,
+  .display3,
+  .display5 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .display1,
   .display2 {
     display: none;
   }
