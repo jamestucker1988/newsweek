@@ -2,10 +2,10 @@
   font-size: 1rem;
 }
 
-html,
+/* html,
 body {
-  /* overflow-x: hidden; */
-}
+   overflow-x: hidden; 
+} */
 
 .fa-angle-right {
   font-size: 1.4rem;
@@ -26,32 +26,42 @@ body {
 }
 
 .c-vs {
-  content: "";
-  display: inline-block;
-  border-radius: 100%;
-  background-color: #212529;
-  color: #fff;
   position: relative;
-  left: 40%;
   z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed",sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+
+.deco::before {
+  top: calc(50% - 2px);
+}
+
+.deco::after {
+  top: 50%;
+}
+
+.deco::before,
+.deco::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .top {
   position: absolute;
   top: 75%;
 }
-
-/* .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
-
-/* .row {
-  margin-right: -15px;
-  margin-left: -15px;
-} */
 
 .inherit {
   width: inherit;
