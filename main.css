@@ -1,0 +1,262 @@
+:root {
+  font-size: 1rem;
+}
+
+.fa-angle-right {
+  font-size: 1.4rem;
+  vertical-align: middle;
+  padding-left: 0.2rem;
+}
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+.line-height {
+  line-height: 1.3rem;
+}
+
+.theline {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.thetext {
+  color: #d9d9d9;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.deco::before {
+  top: calc(50% - 2px);
+}
+
+.deco::after {
+  top: 50%;
+}
+
+.deco::before,
+.deco::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.top {
+  position: absolute;
+  top: 75%;
+}
+
+.inherit {
+  width: inherit;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.fontsize-8 {
+  font-size: 0.8rem;
+}
+
+.fontsize-7 {
+  font-size: 0.7rem;
+}
+
+.fontsize-6 {
+  font-size: 0.6rem;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.clear-left {
+  clear: both;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.flex-basis {
+  flex-basis: 100%;
+}
+
+.text-color {
+  color: black;
+}
+
+.width1 {
+  width: 75%;
+}
+
+.bottom {
+  bottom: 27px;
+}
+
+.left {
+  left: 0;
+}
+
+.adjust {
+  bottom: 2rem;
+  left: 5.5rem;
+}
+
+.background1 {
+  background-color: #f72210 !important;
+}
+
+.color {
+  color: #f72210;
+}
+
+.background2 {
+  background: #f4f5f6;
+}
+
+.inline {
+  display: inline;
+  position: absolute;
+}
+
+.block {
+  display: block;
+}
+
+.svg-width {
+  width: 30%;
+  height: auto;
+}
+
+.cover {
+  object-fit: scale-down;
+}
+
+.card-horizon {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.width3 {
+  width: auto;
+}
+
+.width4 {
+  width: 30px;
+  height: 30px;
+}
+
+.layered-image {
+  left: -20px;
+}
+
+.margin {
+  margin: 0;
+}
+
+.height {
+  height: 88.5%;
+}
+
+.z-index {
+  z-index: 1;
+  top: 5px;
+}
+
+.font-size {
+  font-size: 2rem;
+}
+
+.width5 {
+  width: 15%;
+}
+
+.width2 {
+  width: 8%;
+  height: 8%;
+}
+
+.card-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.card-body a:hover {
+  text-decoration: underline #f72210;
+}
+
+.fa-user,
+nav {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.overflow1 {
+  overflow-y: hidden;
+}
+
+.overflow {
+  position: relative;
+  position: absolute;
+  scrollbar-width: none;
+}
+
+.debate {
+  border-bottom: 2px ridge #d9d9d9;
+}
+
+@media (max-width: 575.98px) {
+  .svg-width {
+    width: 43%;
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    font-size: 0.8rem;
+  }
+
+  .display1 {
+    display: none;
+  }
+
+  .width2 {
+    width: 2%;
+    height: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .display1 {
+    display: none;
+  }
+}
